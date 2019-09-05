@@ -27,7 +27,7 @@ p {
   position: relative;
   margin-bottom: 3%;
 }
-
+/*
 .heading::after {
   content: "";
   position: absolute;
@@ -39,7 +39,7 @@ p {
   margin: 0 auto;
   background: #ff1493;
 }
-
+*/
 /* HEADER/HERO */
 header {
   position: absolute;
@@ -50,9 +50,6 @@ header {
 }
 
 header ul {
-  display: inline-block;
-  text-align: center;
-  padding: 10px;
   display: flex;
   justify-content: space-around;
   width: 80%;
@@ -69,6 +66,7 @@ header ul li {
 }
 .nav-link {
   text-decoration: none;
+  color: #ff1493;
 }
 
 #lead {
@@ -236,3 +234,16 @@ header ul li {
   display: inline-block;
   list-style: none;
 }
+
+/**********
+** CONTACT ME
+*********/
+#contact-me {
+  background-color: #f2f2f5; 
+}
+#contact-form {
+  display: flex;
+  flex-direction: column; 
+}
+
+
